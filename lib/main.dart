@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'src/feature/home/home_screen.dart';
+import 'src/core/model/movie_detail.dart';
+import 'src/feature/detail/detail_screen.dart';
+//import 'src/feature/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(title: 'Flutter Demo Home Page'),
+//      home: const HomeScreen(title: 'Flutter Demo Home Page'),
+      home: DetailScreen(
+        movieDetail: MovieDetail(),
+      ),
     );
   }
 }
