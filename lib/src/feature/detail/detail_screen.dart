@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../core/model/movie_detail.dart';
+import '../../data/model/movie_detail.dart';
 import 'detail_state.dart';
 
 class DetailScreen extends StatefulWidget {
